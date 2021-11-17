@@ -7,20 +7,9 @@ function NavTabs({ currentPage, handlePageChange }) {
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
-          href="#home"
-          onClick={() => handlePageChange('Home')}
-          //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
-
-          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-        >
-          Home
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
           href="#about"
           onClick={() => handlePageChange('About')}
-          //  TODO: Add a comment explaining what this logic is doing
+          //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
 
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
         >
@@ -29,13 +18,24 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
-          href="#blog"
-          onClick={() => handlePageChange('Blog')}
+          href="#skills"
+          onClick={() => handlePageChange('Skills')}
           //  TODO: Add a comment explaining what this logic is doing
 
-          className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Skllls' ? 'nav-link active' : 'nav-link'}
         >
-          Blog
+          Tech
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#projects"
+          onClick={() => handlePageChange('Projects')}
+          //  TODO: Add a comment explaining what this logic is doing
+
+          className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
+        >
+          Projects
         </a>
       </li>
       <li className="nav-item">
