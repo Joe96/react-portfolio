@@ -1,16 +1,15 @@
 import React from 'react';
+import '../../styles/style.css';
 
 export default function About() {
   return (
     <div>
       <h1>Introduction</h1>
+      <img id="profilePic" src="https://media-exp1.licdn.com/dms/image/C5103AQGdJeVEp2MzQg/profile-displayphoto-shrink_800_800/0/1517443732158?e=1639612800&v=beta&t=DqVMIim6Z5-yrA6UBjqav4VZATf6Kdo6GgyGlbVEAaE" alt="profile avatar"></img>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        Hi my name is Joel. I am a 25 year old fullstack devloper web developer and a Android Mobile developer.<br/>
+        I currenty reside in Minneapolis, MN. I like to play videogames, watch cartoons and anime, listen to music, and watch sports.<br/>
+        Thanks for clicking on my portfolio.
       </p>
     </div>
   );
