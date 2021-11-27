@@ -3,7 +3,8 @@ import '../../styles/style.css';
 
 export default function Resume() {
   return (
-    <div>
+    <div style={{height:'100vh'}}>
+
       <a href="###">Resume</a>
 
       <h3>Front-End</h3>
