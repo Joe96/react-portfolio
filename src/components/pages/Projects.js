@@ -6,9 +6,11 @@ import Col from 'react-bootstrap/Col'
 
 export default function Projects() {
   return (
-    <div className="justify-content-center">
+    <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh'}}>
       <Container>
+
         <Row>
+
           <Col>          
             <div>
               <p>Popcorn Time</p>
