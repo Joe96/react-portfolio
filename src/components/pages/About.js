@@ -3,7 +3,7 @@ import '../../styles/style.css';
 
 export default function About() {
   return (
-    <div>
+    <div style={{display: 'flex', flexDirection: "column", justifyContent:'space-around', alignItems:'center', height: '100vh'}}>
       <h1>Introduction</h1>
       <img id="profilePic" src="https://media-exp1.licdn.com/dms/image/C5103AQGdJeVEp2MzQg/profile-displayphoto-shrink_800_800/0/1517443732158?e=1639612800&v=beta&t=DqVMIim6Z5-yrA6UBjqav4VZATf6Kdo6GgyGlbVEAaE" alt="profile avatar"></img>
       <p>
@@ -14,3 +14,4 @@ export default function About() {
     </div>
   );
 }
+

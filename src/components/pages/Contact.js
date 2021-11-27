@@ -53,14 +53,8 @@ function Form() {
   };
 
   return (
-    <div class="row">
+    <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh'}}>
       <div className="col-md-3 center">
-        <p>
-          Contact 
-          {firstName} 
-          {email} 
-          {message} 
-        </p>
         <form className="form">
           <input
             value={firstName}
@@ -71,7 +65,7 @@ function Form() {
           />
           <input
             value={email}
-            name="lastName"
+            name="email"
             onChange={handleInputChange}
             type="text"
             placeholder="Email"

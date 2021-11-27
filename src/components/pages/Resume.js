@@ -4,7 +4,7 @@ import '../../styles/style.css';
 export default function Resume() {
   return (
     <div>
-      <a href>Resume</a>
+      <a href="###">Resume</a>
 
       <h3>Front-End</h3>
       <ul>
@@ -22,7 +22,7 @@ export default function Resume() {
         <li>Node.js</li>
         <li>REST</li>
         <li>Express</li>
-        <li>Graph</li>
+        <li>GraphQL</li>
         <li>SQL</li>
         <li>MongnoDb</li>
       </ul>
